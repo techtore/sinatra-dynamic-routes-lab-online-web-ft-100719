@@ -43,7 +43,7 @@ class App < Sinatra::Base
     elsif operation = "multiply"
       (@num1 * @num2).to_s
 
-    elsif operation = "divide" 
+    else operation = "divide" 
       (@num1 / @num2).to_s
     end
   end
